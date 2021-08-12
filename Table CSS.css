@@ -1,0 +1,26 @@
+th{
+    text-align: left;
+    background-color: rgba(132, 87, 163, 0.63);
+    text-shadow: 1px 1px;
+
+}
+
+th,
+td{
+    border: 1px solid rgba(132, 87, 163, 0.63);
+    padding: 10px;
+    vertical-align: top;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: rgb(117, 88, 138);
+}
+table.team-names tr :nth-child(2),
+table.team-names tr :nth-child(3) {
+    text-align: center;
+}
